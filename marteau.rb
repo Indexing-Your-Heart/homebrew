@@ -11,7 +11,7 @@ class Marteau < Formula
   depends_on :macos => :monterey
 
   def install
-    system 'swift', 'build', '--configuration', 'release'
+    system 'swift', 'build', '--disable-sandbox', '--configuration', 'release'
     bin.install './.build/release/marteau'
   end
 end
