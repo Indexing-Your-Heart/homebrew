@@ -2,8 +2,9 @@ require 'formula'
 
 class Marteau < Formula
   homepage 'https://github.com/Indexing-Your-Heart/marteau'
-  url 'https://github.com/Indexing-Your-Heart/marteau/archive/0.1.0-alpha.tar.gz'
-  sha256 'd76205235686c78bb5372f6da962e4fd9a775ac68089af88a17a04bbbc3ae889'
+  version '0.1.0-alpha2'
+  url 'https://github.com/Indexing-Your-Heart/marteau/archive/0.1.0-alpha2.tar.gz'
+  sha256 'e507122acbc9b83e1c4254e65ec1340d2f268c62f94db25411f9a7cb8a634f31'
 
   head 'https://github.com/Indexing-Your-Heart/marteau.git'
 
